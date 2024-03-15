@@ -1,0 +1,100 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "nest-api",
+    "dateExported": "2024-03-15T18:23:06.989Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5adbd675-fa7b-4d49-aa0c-28d756a533d7",
+            "colId": "4f3f03a1-e595-4c99-91c2-0b3962860100",
+            "containerId": "",
+            "name": "Get Users by role",
+            "url": "http://localhost:3000/users?role=ADMIN",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-15T18:19:17.325Z",
+            "modified": "2024-03-15T18:20:02.822Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "role",
+                    "value": "ADMIN",
+                    "isPath": false
+                }
+            ],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "5a5fd49d-4568-4425-9c69-9ce2cc386fd3",
+            "colId": "4f3f03a1-e595-4c99-91c2-0b3962860100",
+            "containerId": "",
+            "name": "Get Users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-15T18:19:27.575Z",
+            "modified": "2024-03-15T18:20:05.561Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "facc68f5-c70e-440a-b573-fff0b1474ca3",
+            "colId": "4f3f03a1-e595-4c99-91c2-0b3962860100",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-15T18:19:51.200Z",
+            "modified": "2024-03-15T18:21:28.191Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Vicky\",\n  \"email\": \"vicky@gmail.com\",\n  \"role\": \"INTERN\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "5af63cf3-427b-47ed-9fd2-b0be6ecea1ba",
+            "colId": "4f3f03a1-e595-4c99-91c2-0b3962860100",
+            "containerId": "",
+            "name": "Update User by id",
+            "url": "http://localhost:3000/users/1",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2024-03-15T18:21:05.319Z",
+            "modified": "2024-03-15T18:22:08.083Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Vickylance\",\n  \"email\": \"vickylance@gmail.com\",\n  \"role\": \"ADMIN\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "434e02e0-e16c-4763-bde6-8163fbd42363",
+            "colId": "4f3f03a1-e595-4c99-91c2-0b3962860100",
+            "containerId": "",
+            "name": "Delete User by id",
+            "url": "http://localhost:3000/users/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-15T18:22:14.985Z",
+            "modified": "2024-03-15T18:22:26.461Z",
+            "headers": [],
+            "params": [],
+            "reqType": "patch",
+            "tests": []
+        }
+    ]
+}
